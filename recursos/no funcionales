@@ -1,0 +1,8 @@
+| **ID**   | **Tipo**       | **Descripción**                                                               |
+| -------- | -------------- | ----------------------------------------------------------------------------- |
+| **RNF1** | Usabilidad     | La interfaz debe ser sencilla, clara e intuitiva para cualquier usuario.      |
+| **RNF2** | Rendimiento    | El sistema debe cargar la lista de asistencia en menos de 3 segundos.         |
+| **RNF3** | Seguridad      | Debe proteger los datos evitando pérdidas, accesos no autorizados o errores.  |
+| **RNF4** | Disponibilidad | El sistema debe funcionar correctamente al menos el 95% del tiempo.           |
+| **RNF5** | Compatibilidad | Debe poder ejecutarse en distintos dispositivos (PC, laptop, móvil).          |
+| **RNF6** | Mantenibilidad | El sistema debe permitir agregar nuevas funciones sin afectar las existentes. |
