@@ -1,0 +1,31 @@
+Plan de Pruebas
+ Introducción
+El plan de pruebas verifica que el sistema cumpla los requerimientos funcionales y no funcionales, garantizando su correcto funcionamiento, estabilidad y facilidad de uso.
+ Alcance
+Las pruebas incluirán:
+•	Registro de datos
+•	Edición
+•	Eliminación
+•	Búsqueda
+•	Visualización
+•	Validación
+•	Comportamiento ante errores
+•	Rendimiento
+ Tipos de Pruebas
+•	Pruebas funcionales: Confirman que cada función cumple con su propósito.
+•	Pruebas de validación: Revisan errores en campos vacíos o datos incorrectos.
+•	Pruebas de interfaz: Aseguran que la aplicación sea fácil de usar.
+•	Pruebas de rendimiento: Miden velocidad de carga.
+•	Pruebas de seguridad: Evitan accesos no autorizados o pérdidas de información.
+ Entorno
+•	Dispositivo: PC o celular
+•	Sistema operativo: Windows / Android
+•	Plataforma: Según implementación del estudiante
+
+Tabla de Pruebas
+Nº	Requerimiento	Datos de Entrada	Resultado Esperado	Validación
+1	RF1 – Registrar asistencia	Nombre: “Carlos” Fecha: 18/11/2025 Estado: “Presente”	Se registra en la base de datos y aparece en la lista	Registro creado correctamente
+2	RF2 – Consultar asistencia	Buscar: “Carlos”	El sistema muestra el registro asociado al nombre	Búsqueda correcta por nombre
+3	RF3 – Editar registro	Seleccionar “Carlos” Cambiar estado a “Ausente”	El registro se actualiza sin errores	Modificación exitosa
+4	RF4 – Eliminar registro	Seleccionar registro de “Carlos”	Se elimina de la base de datos y desaparece de la lista	Eliminación correcta
+5	RF6 – Validación	Dejar nombre vacío	El sistema muestra un mensaje de error	Validación funcional
