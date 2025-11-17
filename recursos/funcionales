@@ -1,0 +1,8 @@
+| **ID**  | **Requerimiento Funcional** | **Descripción**                                                                                                           |
+| ------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **RF1** | Registrar asistencia        | El sistema debe permitir registrar la asistencia de una persona con datos como nombre, fecha y estado (presente/ausente). |
+| **RF2** | Consultar asistencia        | El sistema debe permitir buscar registros por nombre, fecha o palabra clave.                                              |
+| **RF3** | Editar asistencia           | El sistema debe permitir modificar un registro previamente guardado.                                                      |
+| **RF4** | Eliminar asistencia         | El sistema debe permitir borrar un registro seleccionado.                                                                 |
+| **RF5** | Mostrar lista de asistencia | El sistema debe mostrar todos los registros en forma de lista ordenada cronológicamente.                                  |
+| **RF6** | Validación de campos        | El sistema debe verificar que los campos obligatorios no estén vacíos antes de registrar.                                 |
